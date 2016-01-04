@@ -1,0 +1,7 @@
+//The Ping-Pong method counts from 1 to a given number
+
+//If it's divisible by 3, then return ping.
+
+//If it's divisible by 5, then return pong.
+
+//If it's divisible by 3 and 5, then return pingpong.
