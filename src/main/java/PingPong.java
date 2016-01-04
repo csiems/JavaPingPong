@@ -1,22 +1,24 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class PingPong {
 
-  //private Integer userNumber;
+  List<String> returnArray = new ArrayList<String>();
 
-  public String pingPongOutput(Integer number) {
-  /*  for( i = 0; i <= number; i++ ) {
+  public List<String> pingPongOutput(Integer number) {
 
-  } */
-    if( number % 3 == 0 && number % 5 == 0 ) {
-      return "pingpong";
-    } else if ( number % 5 == 0 ) {
-      return "pong";
-    } else if ( number % 3 == 0 ){
-      return "ping";
+    for( int i = 1; i <= number; i++ ) {
+
+      if( i % 3 == 0 && i % 5 == 0 ) {
+        returnArray.add("pingpong");
+      } else if ( i % 5 == 0 ) {
+        returnArray.add("pong");
+      } else if ( i % 3 == 0 ){
+        returnArray.add("ping");
+      } else {
+        returnArray.add(Integer.toString(i));
+      }
     }
-
-
-
-    return "x";
-
+    return returnArray;
   }
 }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PingPongTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-01-04T20:01:35" hostname="epicodus-36.local" time="0.001">
+<testsuite name="PingPongTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-01-04T22:22:50" hostname="epicodus-36.local" time="0.002">
   <properties/>
   <testcase name="pingPongOutput_forNumberDivisibleByFiveAndThree_pingpong" classname="PingPongTest" time="0.001"/>
   <testcase name="pingPongOutput_forNumberDivisibleByThree_ping" classname="PingPongTest" time="0.0"/>
-  <testcase name="pingPongOutput_forNumberDivisibleByFive_pong" classname="PingPongTest" time="0.0"/>
+  <testcase name="pingPongOutput_forNumberDivisibleByFive_pong" classname="PingPongTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
