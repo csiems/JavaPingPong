@@ -6,9 +6,15 @@ public class PingPong {
   /*  for( i = 0; i <= number; i++ ) {
 
   } */
-    if( number % 3 == 0 ) {
+    if( number % 3 == 0 && number % 5 == 0 ) {
+      return "pingpong";
+    } else if ( number % 5 == 0 ) {
+      return "pong";
+    } else if ( number % 3 == 0 ){
       return "ping";
     }
+
+
 
     return "x";
 
